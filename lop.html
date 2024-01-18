@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Looping</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Teenagers Team</h3>
+      <ul id="kita">
+        <li></li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      let teenagers = ["mardiyani", "felisha", "sabila", "triani", "jamilah", "tsani"];
+      let tampil = teenagers.length;
+
+      let text = "";
+      for (let i = 0; i < tampil; i++) {
+        text += "<li>" + teenagers[i] + "</li>";
+      }
+
+      document.getElementById("kita").innerHTML = text;
+    </script>
+    <form action="index.html" id="kembali">
+      <input type="submit" value="BACK" class="btn mr-2" />
+    </form>
+  </body>
+</html>
