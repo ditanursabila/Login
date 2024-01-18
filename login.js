@@ -13,5 +13,5 @@ function tampil() {
 }
 document.getElementById("login1").addEventListener("button", function(event){
   event.preventDefault();
-  admin();
+  tampil();
 });
