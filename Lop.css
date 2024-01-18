@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  
+}
+h3{
+  text-align: center;
+}
+.container{
+    margin: 250px auto;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0 0 10px green;
+    background-image: radial-gradient(circle at 54.95% 106.63%, #e9ff7e 0, #d2ff82 10%, #b9fa87 20%, #a0f18b 30%, #86e68e 40%, #6cd890 50%, #53ca91 60%, #3abd92 70%, #1cb393 80%, #00aa95 90%, #00a398 100%);
+}
